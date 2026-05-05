@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Blog Post — Orao Impact Foundation</title>
+  <meta name="description" content="Read insights and stories from Orao Impact Foundation on digital inclusion, community safety, and economic empowerment."/>
+  <meta property="og:title" content="Blog Post — Orao Impact Foundation"/>
+  <meta property="og:type" content="article"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="styles.css"/>
+  <script>
+    (function(){var t=localStorage.getItem('orao-theme')||((window.matchMedia&&window.matchMedia('(prefers-color-scheme:dark)').matches)?'dark':'light');document.documentElement.setAttribute('data-theme',t);})();
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <header class="site-header">
+    <nav class="nav container" aria-label="Primary">
+      <a href="index.html" class="brand" aria-label="Orao Impact Foundation home">
+        <span class="brand-mark">◉</span><span>Orao Impact</span>
+      </a>
+      <ul class="nav-links" id="nav-links" role="list">
+        <li><a href="about.html">About</a></li>
+        <li><a href="programs.html">Programs</a></li>
+        <li><a href="blog.html" class="active">Blog</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="contact.html" class="btn-nav">Get Involved</a></li>
+      </ul>
+      <div class="nav-actions">
+        <button class="dark-toggle" data-dark-toggle aria-label="Toggle dark mode"></button>
+        <button class="menu-toggle" aria-expanded="false" aria-controls="nav-links">Menu</button>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main">
+    <!-- POST HEADER -->
+    <section class="page-hero">
+      <div class="container">
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+          <a href="index.html">Home</a>
+          <span class="breadcrumb-sep">›</span>
+          <a href="blog.html">Blog</a>
+          <span class="breadcrumb-sep">›</span>
+          <span id="post-breadcrumb">Post</span>
+        </nav>
+        <div id="post-tags" style="display:flex;flex-wrap:wrap;gap:.4rem;margin-bottom:1rem">
+          <!-- Tags populated by JS -->
+        </div>
+        <h1 id="post-title" style="max-width:820px">Loading post…</h1>
+        <div class="post-meta" style="margin-top:1rem">
+          <div class="post-author">
+            <div class="post-author-avatar" aria-hidden="true">👤</div>
+            <span class="post-author-name" id="post-author-name">Orao Impact Team</span>
+          </div>
+          <time class="post-date" id="post-date"></time>
+        </div>
+      </div>
+    </section>
+
+    <!-- POST COVER IMAGE -->
+    <div class="container" style="padding-top:2.5rem">
+      <div class="post-cover">
+        <img id="post-cover-img" src="assets/images/blog-digital.svg" alt="" loading="eager" style="width:100%;height:420px;object-fit:cover"/>
+      </div>
+    </div>
+
+    <!-- POST BODY -->
+    <article class="container">
+      <div class="post-body" id="post-content">
+        <p class="post-loading" style="text-align:center;padding:4rem 0;color:var(--text-muted)">
+          Loading post content…
+        </p>
+      </div>
+
+      <!-- POST NAVIGATION -->
+      <nav class="post-nav" aria-label="Post navigation">
+        <a href="blog.html" class="post-nav-link">← Back to all posts</a>
+        <a href="contact.html" class="btn btn-outline btn-sm">Share your thoughts</a>
+      </nav>
+    </article>
+
+    <!-- RELATED POSTS -->
+    <section class="section muted" id="related-section">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="eyebrow">Continue Reading</span>
+          <h2>Related Posts</h2>
+        </div>
+        <div class="grid-3" id="related-posts">
+          <!-- Populated by JS -->
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <div class="footer-brand"><span class="brand-mark">◉</span> Orao Impact Foundation</div>
+          <p class="footer-desc">Empowering communities through technology, inclusion, and innovation across Africa.</p>
+          <div class="footer-socials">
+            <a href="#" class="social-link" aria-label="Twitter/X">𝕏</a>
+            <a href="#" class="social-link" aria-label="LinkedIn">in</a>
+            <a href="#" class="social-link" aria-label="Instagram">Ig</a>
+            <a href="#" class="social-link" aria-label="YouTube">▶</a>
+          </div>
+        </div>
+        <div>
+          <p class="footer-heading">Quick Links</p>
+          <nav class="footer-links">
+            <a href="about.html">About Us</a>
+            <a href="programs.html">Programs</a>
+            <a href="blog.html">Blog</a>
+            <a href="contact.html">Contact</a>
+          </nav>
+        </div>
+        <div>
+          <p class="footer-heading">Contact</p>
+          <div class="footer-contact-item">📧 <a href="mailto:info@oraoimpact.org">info@oraoimpact.org</a></div>
+          <div class="footer-contact-item">📞 <span>+000 000 0000</span></div>
+          <div class="footer-contact-item">📍 <span>Nigeria, Africa</span></div>
+        </div>
+        <div>
+          <p class="footer-heading">Stay Updated</p>
+          <form class="newsletter" onsubmit="return false">
+            <label for="newsletter-email5">Subscribe to our newsletter</label>
+            <div class="newsletter-row">
+              <input id="newsletter-email5" type="email" placeholder="Your email" required/>
+              <button type="submit">Subscribe</button>
+            </div>
+          </form>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2025 Orao Impact Foundation. All rights reserved.</p>
+        <div class="footer-bottom-links">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Use</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

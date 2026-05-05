@@ -1,187 +1,381 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Orao Impact Foundation</title>
-    <meta
-      name="description"
-      content="Orao Impact Foundation empowers underserved communities across Africa through digital skills, innovation, and economic inclusion."
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="styles.css" />
-  </head>
-  <body>
-    <a class="skip-link" href="#main">Skip to main content</a>
-    <header class="site-header" id="top">
-      <nav class="nav container" aria-label="Primary">
-        <a href="#top" class="brand" aria-label="Orao Impact Foundation home">
-          <span class="brand-mark">◉</span>
-          <span>Orao Impact Foundation</span>
-        </a>
-        <button class="menu-toggle" aria-expanded="false" aria-controls="nav-links">
-          Menu
-        </button>
-        <ul class="nav-links" id="nav-links">
-          <li><a href="#about">About</a></li>
-          <li><a href="#impact">Impact</a></li>
-          <li><a href="#programs">Programs</a></li>
-          <li><a href="#sdg">SDGs</a></li>
-          <li><a href="#involved">Get Involved</a></li>
-        </ul>
-      </nav>
-    </header>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Orao Impact Foundation — Empowering Communities Through Technology</title>
+  <meta name="description" content="Orao Impact Foundation empowers underserved communities across Africa through digital skills, innovation, and economic inclusion."/>
+  <meta property="og:title" content="Orao Impact Foundation"/>
+  <meta property="og:description" content="Driving digital inclusion, economic empowerment, and sustainable impact across Africa."/>
+  <meta property="og:type" content="website"/>
+  <meta property="og:image" content="assets/images/about-hero.svg"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="styles.css"/>
+  <script>
+    (function(){var t=localStorage.getItem('orao-theme')||((window.matchMedia&&window.matchMedia('(prefers-color-scheme:dark)').matches)?'dark':'light');document.documentElement.setAttribute('data-theme',t);})();
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
 
-    <main id="main">
-      <section class="hero section">
-        <div class="container hero-grid">
-          <div>
-            <p class="eyebrow">Technology for Inclusion</p>
-            <h1>Empowering Communities Through Technology and Innovation</h1>
-            <p class="lead">
-              Driving digital inclusion, economic empowerment, and sustainable impact across Africa.
-            </p>
-            <div class="cta-group">
-              <a href="#involved" class="btn btn-primary">Join Our Mission</a>
-              <a href="#involved" class="btn btn-secondary">Support Our Work</a>
-            </div>
-          </div>
-          <div class="hero-art" aria-hidden="true">
-            <div class="blob blob-1"></div>
-            <div class="blob blob-2"></div>
-            <div class="blob blob-3"></div>
-            <div class="network-card">
-              <p>Inclusive Innovation</p>
-              <p>Community Growth</p>
-              <p>Future Opportunity</p>
-            </div>
-          </div>
-        </div>
-      </section>
+  <!-- HEADER -->
+  <header class="site-header" id="top">
+    <nav class="nav container" aria-label="Primary">
+      <a href="index.html" class="brand" aria-label="Orao Impact Foundation home">
+        <span class="brand-mark">◉</span>
+        <span>Orao Impact</span>
+      </a>
+      <ul class="nav-links" id="nav-links" role="list">
+        <li><a href="about.html">About</a></li>
+        <li><a href="programs.html">Programs</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="contact.html" class="btn-nav">Get Involved</a></li>
+      </ul>
+      <div class="nav-actions">
+        <button class="dark-toggle" data-dark-toggle aria-label="Toggle dark mode" title="Toggle dark mode"></button>
+        <button class="menu-toggle" aria-expanded="false" aria-controls="nav-links">Menu</button>
+      </div>
+    </nav>
+  </header>
 
-      <section class="section" id="about">
-        <div class="container">
-          <h2>About Orao Impact Foundation</h2>
-          <p>
-            Orao Impact Foundation is a technology-driven nonprofit building pathways to dignity and prosperity.
-            We equip youth, entrepreneurs, and underserved communities with practical digital tools to unlock opportunity.
-          </p>
-          <div class="pillars">
-            <article class="card"><h3>Digital Skills &amp; Education</h3><p>Equipping youth with in-demand digital competencies for the future of work.</p></article>
-            <article class="card"><h3>Community Safety (meSafe)</h3><p>Applying community-led safety technology to strengthen trust and resilience.</p></article>
-            <article class="card"><h3>SME Digital Empowerment (Shopmon)</h3><p>Helping small businesses thrive with digital visibility, tools, and market access.</p></article>
-          </div>
-        </div>
-      </section>
-
-      <section class="section muted" id="impact">
-        <div class="container">
-          <h2>Our Impact Vision</h2>
-          <div class="stats">
-            <article class="stat"><span class="counter" data-target="300">0</span><p>Youth to be trained</p></article>
-            <article class="stat"><span class="counter" data-target="100">0</span><p>SMEs to be empowered</p></article>
-            <article class="stat"><span class="counter" data-target="25">0</span><p>Communities supported</p></article>
-          </div>
-        </div>
-      </section>
-
-      <section class="section" id="programs">
-        <div class="container">
-          <h2>Programs</h2>
-          <div class="grid-3">
-            <article class="card program-card">
-              <h3>Orao Digital Empowerment Program</h3>
-              <p>Hands-on training for youth in digital literacy, innovation, and entrepreneurship.</p>
-              <a href="#" aria-label="Learn more about Orao Digital Empowerment Program">Learn More →</a>
-            </article>
-            <article class="card program-card">
-              <h3>Safe Communities Initiative (meSafe)</h3>
-              <p>Community-centered solutions that support safety awareness and rapid support pathways.</p>
-              <a href="#" aria-label="Learn more about Safe Communities Initiative">Learn More →</a>
-            </article>
-            <article class="card program-card">
-              <h3>SME Digital Growth Program (Shopmon)</h3>
-              <p>Digital enablement for SMEs through online storefronts, digital marketing, and insights.</p>
-              <a href="#" aria-label="Learn more about SME Digital Growth Program">Learn More →</a>
-            </article>
-          </div>
-        </div>
-      </section>
-
-      <section class="section muted" id="sdg">
-        <div class="container">
-          <h2>Aligned with Global Development Goals</h2>
-          <div class="sdg-grid">
-            <div class="badge">SDG 4<br /><span>Quality Education</span></div>
-            <div class="badge">SDG 8<br /><span>Economic Growth</span></div>
-            <div class="badge">SDG 9<br /><span>Innovation</span></div>
-            <div class="badge">SDG 11<br /><span>Sustainable Communities</span></div>
-          </div>
-        </div>
-      </section>
-
-      <section class="section" id="involved">
-        <div class="container">
-          <h2>How to Get Involved</h2>
-          <div class="grid-3">
-            <article class="card"><h3>Volunteer</h3><p>Share your time and skills to mentor youth and support community projects.</p></article>
-            <article class="card"><h3>Partner With Us</h3><p>Collaborate as an institution, donor, or ecosystem ally to scale impact.</p></article>
-            <article class="card"><h3>Donate</h3><p>Fuel programs that expand access to education, safety, and economic opportunity.</p></article>
-          </div>
-          <div class="cta-group center">
-            <a href="#" class="btn btn-primary">Become a Volunteer</a>
-            <a href="#" class="btn btn-secondary">Make a Donation</a>
-          </div>
-        </div>
-      </section>
-
-      <section class="section muted" id="stories">
-        <div class="container">
-          <h2>Stories of Change</h2>
-          <blockquote>
-            “Through Orao Impact Foundation, I gained practical digital skills that transformed my confidence and opened new income opportunities.”
-          </blockquote>
-          <p class="quote-author">— Future community success story</p>
-        </div>
-      </section>
-    </main>
-
-    <footer class="site-footer">
-      <div class="container footer-grid">
+  <main id="main">
+    <!-- HERO -->
+    <section class="hero section">
+      <div class="container hero-grid">
         <div>
-          <h3>Orao Impact Foundation</h3>
-          <p>Empowering communities through technology, inclusion, and innovation.</p>
+          <div class="hero-tag"><span class="dot"></span> Technology for Inclusion</div>
+          <h1>Empowering Communities Through <span class="text-accent">Technology</span> and Innovation</h1>
+          <p class="lead">Driving digital inclusion, economic empowerment, and sustainable impact across Africa — one community at a time.</p>
+          <div class="cta-group">
+            <a href="programs.html" class="btn btn-primary">Explore Our Programs</a>
+            <a href="contact.html" class="btn btn-secondary">Get Involved →</a>
+          </div>
         </div>
-        <div>
-          <h4>Quick Links</h4>
-          <ul>
-            <li><a href="#about">About</a></li>
-            <li><a href="#programs">Programs</a></li>
-            <li><a href="#involved">Get Involved</a></li>
-          </ul>
-        </div>
-        <div>
-          <h4>Contact</h4>
-          <p>Email: hello@oraoimpact.org</p>
-          <p>Phone: +000 000 0000</p>
-        </div>
-        <div>
-          <h4>Stay Updated</h4>
-          <form class="newsletter">
-            <label for="newsletter" class="sr-only">Email address</label>
-            <input id="newsletter" type="email" placeholder="Your email" required />
-            <button type="submit">Subscribe</button>
-          </form>
-          <p class="socials">X · LinkedIn · Instagram · YouTube</p>
+        <div class="hero-art" aria-hidden="true">
+          <div class="blob blob-1"></div>
+          <div class="blob blob-2"></div>
+          <div class="blob blob-3"></div>
+          <div class="network-card">
+            <p class="nc-label">Our Focus Areas</p>
+            <div class="nc-item"><span class="nc-dot dot-purple"></span> Digital Empowerment</div>
+            <div class="nc-item"><span class="nc-dot dot-green"></span> Community Safety</div>
+            <div class="nc-item"><span class="nc-dot dot-orange"></span> SME Growth</div>
+          </div>
         </div>
       </div>
-    </footer>
+    </section>
 
-    <script src="script.js"></script>
-  </body>
+    <!-- IMPACT STATS -->
+    <section class="section muted" id="impact">
+      <div class="container">
+        <div class="section-header centered reveal">
+          <span class="eyebrow">Our Impact Vision</span>
+          <h2>Building a More Inclusive Africa</h2>
+          <p class="lead">We measure our success by the lives we change and the communities we strengthen.</p>
+        </div>
+        <div class="stats">
+          <article class="stat reveal reveal-delay-1">
+            <span class="counter" data-target="500" data-suffix="+">0+</span>
+            <p>Youth to be trained</p>
+          </article>
+          <article class="stat reveal reveal-delay-2">
+            <span class="counter" data-target="150" data-suffix="+">0+</span>
+            <p>SMEs to be empowered</p>
+          </article>
+          <article class="stat reveal reveal-delay-3">
+            <span class="counter" data-target="30" data-suffix="+">0+</span>
+            <p>Communities supported</p>
+          </article>
+          <article class="stat reveal reveal-delay-4">
+            <span class="counter" data-target="3" data-suffix="">0</span>
+            <p>Flagship programs</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- FEATURED PROGRAMS -->
+    <section class="section" id="programs">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="eyebrow">What We Do</span>
+          <h2>Programs Driving Real Change</h2>
+          <p class="lead">From digital skills for youth to safety tools for communities and digital growth for small businesses — our programs create lasting impact.</p>
+        </div>
+        <div class="grid-3">
+          <article class="card program-card reveal reveal-delay-1" data-category="digital">
+            <div class="program-card-img">
+              <img src="assets/images/program-digital.svg" alt="Youth learning to code at a digital empowerment workshop" loading="lazy"/>
+            </div>
+            <div class="program-card-body">
+              <div class="program-card-tags">
+                <span class="tag tag-digital">Digital Skills</span>
+                <span class="tag tag-digital">AI Basics</span>
+              </div>
+              <h3>Orao Digital Empowerment Program</h3>
+              <p>Hands-on training for youth in coding, AI fundamentals, and digital literacy — preparing the next generation for the digital economy.</p>
+              <a href="programs.html#digital" class="program-card-link">Learn More →</a>
+            </div>
+          </article>
+          <article class="card program-card reveal reveal-delay-2" data-category="safety">
+            <div class="program-card-img">
+              <img src="assets/images/program-safety.svg" alt="Community safety network illustration for meSafe" loading="lazy"/>
+            </div>
+            <div class="program-card-body">
+              <div class="program-card-tags">
+                <span class="tag tag-safety">Community Safety</span>
+                <span class="tag tag-safety">Reporting</span>
+              </div>
+              <h3>Safe Communities Initiative (meSafe)</h3>
+              <p>Technology-powered community safety platform enabling anonymous reporting, rapid response, and safer neighbourhoods for all.</p>
+              <a href="programs.html#safety" class="program-card-link">Learn More →</a>
+            </div>
+          </article>
+          <article class="card program-card reveal reveal-delay-3" data-category="sme">
+            <div class="program-card-img">
+              <img src="assets/images/program-sme.svg" alt="Small business owner learning digital tools through Shopmon" loading="lazy"/>
+            </div>
+            <div class="program-card-body">
+              <div class="program-card-tags">
+                <span class="tag tag-sme">SME Growth</span>
+                <span class="tag tag-sme">E-commerce</span>
+              </div>
+              <h3>SME Digital Growth Program (Shopmon)</h3>
+              <p>Digital enablement for small businesses — from online storefronts to digital marketing and financial tools that help SMEs thrive.</p>
+              <a href="programs.html#sme" class="program-card-link">Learn More →</a>
+            </div>
+          </article>
+        </div>
+        <div class="cta-group center reveal" style="margin-top:2.5rem">
+          <a href="programs.html" class="btn btn-primary">View All Programs</a>
+          <a href="about.html" class="btn btn-secondary">Our Story</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT SNIPPET -->
+    <section class="section muted" id="about">
+      <div class="container">
+        <div class="grid-2" style="gap:3rem; align-items:center">
+          <div class="reveal">
+            <span class="eyebrow">Who We Are</span>
+            <h2>A Tech-Enabled Nonprofit Building Pathways to Dignity</h2>
+            <p class="lead">Orao Impact Foundation is a technology-driven nonprofit building pathways to dignity and prosperity. We equip youth, entrepreneurs, and underserved communities with practical digital tools to unlock opportunity.</p>
+            <div class="cta-group">
+              <a href="about.html" class="btn btn-primary">Our Story</a>
+              <a href="contact.html" class="btn btn-secondary">Partner With Us</a>
+            </div>
+          </div>
+          <div class="reveal reveal-delay-2">
+            <div class="pillars" style="grid-template-columns:1fr 1fr; gap:1rem">
+              <div class="card">
+                <div class="card-icon icon-digital">💻</div>
+                <h4>Digital Skills</h4>
+                <p style="font-size:.85rem; color:var(--text-muted)">Equipping youth with in-demand digital competencies for the future of work.</p>
+              </div>
+              <div class="card">
+                <div class="card-icon icon-safety">🛡️</div>
+                <h4>Community Safety</h4>
+                <p style="font-size:.85rem; color:var(--text-muted)">Tech-led solutions strengthening trust and safety in communities.</p>
+              </div>
+              <div class="card">
+                <div class="card-icon icon-sme">🏪</div>
+                <h4>SME Empowerment</h4>
+                <p style="font-size:.85rem; color:var(--text-muted)">Helping small businesses thrive in the digital marketplace.</p>
+              </div>
+              <div class="card">
+                <div class="card-icon icon-mission">🌍</div>
+                <h4>Pan-African Impact</h4>
+                <p style="font-size:.85rem; color:var(--text-muted)">Community-rooted programs that scale across the continent.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SDGs -->
+    <section class="section" id="sdg">
+      <div class="container">
+        <div class="section-header centered reveal">
+          <span class="eyebrow">Global Alignment</span>
+          <h2>Advancing the UN Sustainable Development Goals</h2>
+        </div>
+        <div class="sdg-grid">
+          <div class="badge reveal reveal-delay-1">SDG 4<span>Quality Education</span></div>
+          <div class="badge reveal reveal-delay-2">SDG 8<span>Economic Growth</span></div>
+          <div class="badge reveal reveal-delay-3">SDG 9<span>Innovation</span></div>
+          <div class="badge reveal reveal-delay-4">SDG 11<span>Sustainable Cities</span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TESTIMONIALS -->
+    <section class="section muted">
+      <div class="container">
+        <div class="section-header centered reveal">
+          <span class="eyebrow">Voices of Change</span>
+          <h2>Stories From Our Community</h2>
+        </div>
+        <div class="testimonials">
+          <article class="testimonial reveal reveal-delay-1">
+            <blockquote>"Through Orao Impact Foundation's digital programme, I gained practical coding skills that opened new income opportunities for me. I now freelance for clients across Africa."</blockquote>
+            <div class="testimonial-author">
+              <div class="testimonial-avatar">👩🏾</div>
+              <div>
+                <p class="testimonial-name">Amara O.</p>
+                <p class="testimonial-title">Programme Graduate · Lagos, Nigeria</p>
+              </div>
+            </div>
+          </article>
+          <article class="testimonial reveal reveal-delay-2">
+            <blockquote>"Shopmon helped us take our family business online. Our sales have grown because customers can now find us on Google and order directly. It changed everything."</blockquote>
+            <div class="testimonial-author">
+              <div class="testimonial-avatar">👨🏾</div>
+              <div>
+                <p class="testimonial-name">Emeka C.</p>
+                <p class="testimonial-title">Small Business Owner · Enugu, Nigeria</p>
+              </div>
+            </div>
+          </article>
+        </div>
+        <p style="text-align:center; margin-top:1.5rem; font-size:.8rem; color:var(--text-light)">
+          * Testimonials are illustrative of expected programme outcomes. Real stories will be featured as programmes launch.
+        </p>
+      </div>
+    </section>
+
+    <!-- BLOG PREVIEW -->
+    <section class="section" id="blog">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="eyebrow">From Our Blog</span>
+          <h2>Insights, Stories & Updates</h2>
+          <p class="lead">Perspectives on digital inclusion, community development, and technology for social good.</p>
+        </div>
+        <div class="grid-3">
+          <a href="post.html?id=digital-skills-new-literacy" class="card blog-card reveal reveal-delay-1">
+            <div class="blog-card-img"><img src="assets/images/blog-digital.svg" alt="Digital skills blog post cover" loading="lazy"/></div>
+            <div class="blog-card-body">
+              <div class="blog-card-meta"><time datetime="2025-04-20">20 April 2025</time></div>
+              <h3>Why Digital Skills Are the New Literacy for African Youth</h3>
+              <p>Coding, AI literacy, and digital fluency are no longer optional — they are the gateway to opportunity in today's economy.</p>
+              <div class="blog-card-tags"><span class="tag tag-digital">Digital Skills</span><span class="tag">Youth</span></div>
+            </div>
+          </a>
+          <a href="post.html?id=mesafe-community-safety" class="card blog-card reveal reveal-delay-2">
+            <div class="blog-card-img"><img src="assets/images/blog-safety.svg" alt="Community safety blog post cover" loading="lazy"/></div>
+            <div class="blog-card-body">
+              <div class="blog-card-meta"><time datetime="2025-03-10">10 March 2025</time></div>
+              <h3>How meSafe Is Reimagining Community Safety in Nigeria</h3>
+              <p>The meSafe platform is giving everyday citizens tools to report, connect, and respond — building safer neighbourhoods.</p>
+              <div class="blog-card-tags"><span class="tag tag-safety">meSafe</span><span class="tag">Community</span></div>
+            </div>
+          </a>
+          <a href="post.html?id=shopmon-smes-go-digital" class="card blog-card reveal reveal-delay-3">
+            <div class="blog-card-img"><img src="assets/images/blog-sme.svg" alt="SME digital economy blog post cover" loading="lazy"/></div>
+            <div class="blog-card-body">
+              <div class="blog-card-meta"><time datetime="2025-02-14">14 February 2025</time></div>
+              <h3>Shopmon: Helping African SMEs Thrive in the Digital Economy</h3>
+              <p>Small businesses are the backbone of African economies. Shopmon is helping them go digital, one business at a time.</p>
+              <div class="blog-card-tags"><span class="tag tag-sme">SME</span><span class="tag">Shopmon</span></div>
+            </div>
+          </a>
+        </div>
+        <div class="cta-group center reveal" style="margin-top:2.5rem">
+          <a href="blog.html" class="btn btn-outline">View All Posts</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- PARTNERS PLACEHOLDER -->
+    <section class="section muted">
+      <div class="container">
+        <div class="section-header centered reveal">
+          <span class="eyebrow">Our Partners</span>
+          <h2>Building Impact Together</h2>
+          <p class="lead">We collaborate with organisations, governments, and individuals who share our vision of a digitally inclusive Africa.</p>
+        </div>
+        <div class="partners-row reveal">
+          <div class="partner-logo">Partner One</div>
+          <div class="partner-logo">Partner Two</div>
+          <div class="partner-logo">Partner Three</div>
+          <div class="partner-logo">Partner Four</div>
+          <div class="partner-logo">Your Name Here</div>
+        </div>
+        <p style="text-align:center; margin-top:1.5rem; font-size:.8rem; color:var(--text-light)">Partner logos are placeholders. <a href="contact.html" style="color:var(--secondary)">Become a partner →</a></p>
+      </div>
+    </section>
+
+    <!-- GET INVOLVED CTA -->
+    <section class="section">
+      <div class="container">
+        <div class="cta-banner reveal">
+          <span class="eyebrow" style="color:rgba(255,255,255,.7)">Join Us</span>
+          <h2>Ready to Make an Impact?</h2>
+          <p>Whether you volunteer, donate, or partner with us — every action moves us closer to a more equitable digital Africa.</p>
+          <div class="cta-group center">
+            <a href="contact.html" class="btn btn-accent">Get Involved Today</a>
+            <a href="programs.html" class="btn btn-secondary">Explore Programs</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <div class="footer-brand"><span class="brand-mark">◉</span> Orao Impact Foundation</div>
+          <p class="footer-desc">Empowering communities through technology, inclusion, and innovation across Africa.</p>
+          <div class="footer-socials">
+            <a href="#" class="social-link" aria-label="Twitter/X">𝕏</a>
+            <a href="#" class="social-link" aria-label="LinkedIn">in</a>
+            <a href="#" class="social-link" aria-label="Instagram">Ig</a>
+            <a href="#" class="social-link" aria-label="YouTube">▶</a>
+          </div>
+        </div>
+        <div>
+          <p class="footer-heading">Quick Links</p>
+          <nav class="footer-links">
+            <a href="about.html">About Us</a>
+            <a href="programs.html">Programs</a>
+            <a href="blog.html">Blog</a>
+            <a href="contact.html">Contact</a>
+          </nav>
+        </div>
+        <div>
+          <p class="footer-heading">Contact</p>
+          <div class="footer-contact-item">📧 <a href="mailto:info@oraoimpact.org">info@oraoimpact.org</a></div>
+          <div class="footer-contact-item">📞 <span>+000 000 0000</span></div>
+          <div class="footer-contact-item">📍 <span>Nigeria, Africa</span></div>
+        </div>
+        <div>
+          <p class="footer-heading">Stay Updated</p>
+          <form class="newsletter" onsubmit="return false">
+            <label for="newsletter-email">Subscribe to our newsletter</label>
+            <div class="newsletter-row">
+              <input id="newsletter-email" type="email" placeholder="Your email" required/>
+              <button type="submit">Subscribe</button>
+            </div>
+          </form>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2025 Orao Impact Foundation. All rights reserved.</p>
+        <div class="footer-bottom-links">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Use</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
 </html>

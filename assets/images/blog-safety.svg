@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" width="800" height="400">
+  <defs><linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" style="stop-color:#0a3d1f"/><stop offset="100%" style="stop-color:#1a5c3a"/></linearGradient></defs>
+  <rect width="800" height="400" fill="url(#bg)"/>
+  <circle cx="400" cy="160" r="90" fill="rgba(0,201,167,0.08)"/>
+  <path d="M400 80 L460 108 L460 185 Q460 232 400 255 Q340 232 340 185 L340 108 Z" fill="rgba(0,201,167,0.18)" stroke="rgba(0,201,167,0.6)" stroke-width="2.5"/>
+  <path d="M375 170 L392 188 L428 148" stroke="#00c9a7" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="160" cy="180" r="15" fill="rgba(245,158,11,0.5)"/>
+  <circle cx="640" cy="180" r="15" fill="rgba(245,158,11,0.5)"/>
+  <circle cx="240" cy="260" r="10" fill="rgba(0,201,167,0.5)"/>
+  <circle cx="560" cy="260" r="10" fill="rgba(0,201,167,0.5)"/>
+  <line x1="175" y1="180" x2="340" y2="165" stroke="rgba(0,201,167,0.25)" stroke-width="1.5" stroke-dasharray="5,4"/>
+  <line x1="460" y1="165" x2="625" y2="180" stroke="rgba(0,201,167,0.25)" stroke-width="1.5" stroke-dasharray="5,4"/>
+  <text x="400" y="320" text-anchor="middle" font-family="Inter,sans-serif" font-size="16" font-weight="700" fill="rgba(255,255,255,0.85)">Community Safety in the Digital Age</text>
+  <text x="400" y="343" text-anchor="middle" font-family="Inter,sans-serif" font-size="12" fill="rgba(255,255,255,0.5)">Orao Impact Foundation Blog</text>
+</svg>
