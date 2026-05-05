@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Blog — Orao Impact Foundation</title>
+  <meta name="description" content="Insights, stories and updates from Orao Impact Foundation on digital inclusion, community safety, and economic empowerment in Africa."/>
+  <meta property="og:title" content="Blog — Orao Impact Foundation"/>
+  <meta property="og:type" content="website"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="styles.css"/>
+  <script>
+    (function(){var t=localStorage.getItem('orao-theme')||((window.matchMedia&&window.matchMedia('(prefers-color-scheme:dark)').matches)?'dark':'light');document.documentElement.setAttribute('data-theme',t);})();
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <header class="site-header">
+    <nav class="nav container" aria-label="Primary">
+      <a href="index.html" class="brand" aria-label="Orao Impact Foundation home">
+        <span class="brand-mark">◉</span><span>Orao Impact</span>
+      </a>
+      <ul class="nav-links" id="nav-links" role="list">
+        <li><a href="about.html">About</a></li>
+        <li><a href="programs.html">Programs</a></li>
+        <li><a href="blog.html" class="active">Blog</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="contact.html" class="btn-nav">Get Involved</a></li>
+      </ul>
+      <div class="nav-actions">
+        <button class="dark-toggle" data-dark-toggle aria-label="Toggle dark mode"></button>
+        <button class="menu-toggle" aria-expanded="false" aria-controls="nav-links">Menu</button>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main">
+    <!-- PAGE HERO -->
+    <section class="page-hero">
+      <div class="container">
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+          <a href="index.html">Home</a><span class="breadcrumb-sep">›</span><span>Blog</span>
+        </nav>
+        <div class="page-hero-content">
+          <span class="eyebrow">Insights & Stories</span>
+          <h1>From the Orao Impact Blog</h1>
+          <p class="lead">Perspectives on digital inclusion, community development, and technology for social good across Africa.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- BLOG CONTENT -->
+    <section class="section">
+      <div class="container">
+
+        <!-- Search + filters -->
+        <div class="blog-controls">
+          <div class="blog-search-wrap" role="search">
+            <label for="blog-search-input" class="sr-only">Search posts</label>
+            <input id="blog-search-input" type="search" placeholder="Search posts…" aria-label="Search blog posts"/>
+            <button id="blog-search-btn" aria-label="Search">Search</button>
+          </div>
+          <div class="tags-filter" id="tag-filters" role="group" aria-label="Filter by tag">
+            <!-- Tags populated by JavaScript -->
+          </div>
+        </div>
+
+        <!-- Featured post -->
+        <div id="featured-post-wrap">
+          <!-- Populated by JS -->
+          <div class="blog-featured reveal" style="background:var(--bg-alt); border:1px solid var(--border)">
+            <div class="blog-featured-img skeleton" style="min-height:320px"></div>
+            <div class="blog-featured-body" style="padding:2.5rem">
+              <div class="skeleton" style="height:12px; width:80px; margin-bottom:1rem"></div>
+              <div class="skeleton" style="height:28px; width:90%; margin-bottom:.75rem"></div>
+              <div class="skeleton" style="height:16px; width:100%; margin-bottom:.4rem"></div>
+              <div class="skeleton" style="height:16px; width:80%; margin-bottom:1.25rem"></div>
+              <div class="skeleton" style="height:14px; width:60px"></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Blog grid -->
+        <h2 style="margin:2.5rem 0 1.5rem; font-size:1.2rem; color:var(--text-muted); font-weight:600">More Posts</h2>
+        <div class="blog-grid" id="blog-grid" role="list" aria-label="Blog posts">
+          <!-- Posts populated by JavaScript -->
+          <div class="card blog-card">
+            <div class="blog-card-img skeleton" style="height:185px"></div>
+            <div class="blog-card-body">
+              <div class="skeleton" style="height:10px; width:70px; margin-bottom:.8rem"></div>
+              <div class="skeleton" style="height:18px; width:95%; margin-bottom:.4rem"></div>
+              <div class="skeleton" style="height:18px; width:80%; margin-bottom:.8rem"></div>
+              <div class="skeleton" style="height:13px; width:100%; margin-bottom:.3rem"></div>
+              <div class="skeleton" style="height:13px; width:85%"></div>
+            </div>
+          </div>
+          <div class="card blog-card">
+            <div class="blog-card-img skeleton" style="height:185px"></div>
+            <div class="blog-card-body">
+              <div class="skeleton" style="height:10px; width:70px; margin-bottom:.8rem"></div>
+              <div class="skeleton" style="height:18px; width:95%; margin-bottom:.4rem"></div>
+              <div class="skeleton" style="height:18px; width:80%; margin-bottom:.8rem"></div>
+              <div class="skeleton" style="height:13px; width:100%; margin-bottom:.3rem"></div>
+              <div class="skeleton" style="height:13px; width:85%"></div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="section muted">
+      <div class="container" style="text-align:center">
+        <div class="reveal">
+          <span class="eyebrow">Stay Informed</span>
+          <h2>Get Insights in Your Inbox</h2>
+          <p class="lead" style="margin:0 auto 2rem">Subscribe to our newsletter for the latest updates, stories, and resources from Orao Impact Foundation.</p>
+          <form style="display:flex;gap:.75rem;justify-content:center;flex-wrap:wrap" onsubmit="return false">
+            <label for="blog-newsletter" class="sr-only">Email address</label>
+            <input id="blog-newsletter" type="email" placeholder="Your email address" required style="padding:.75rem 1.2rem; border-radius:999px; border:1px solid var(--border); background:var(--surface); color:var(--text); font-size:.95rem; min-width:280px; outline:none"/>
+            <button type="submit" class="btn btn-primary">Subscribe</button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <div class="footer-brand"><span class="brand-mark">◉</span> Orao Impact Foundation</div>
+          <p class="footer-desc">Empowering communities through technology, inclusion, and innovation across Africa.</p>
+          <div class="footer-socials">
+            <a href="#" class="social-link" aria-label="Twitter/X">𝕏</a>
+            <a href="#" class="social-link" aria-label="LinkedIn">in</a>
+            <a href="#" class="social-link" aria-label="Instagram">Ig</a>
+            <a href="#" class="social-link" aria-label="YouTube">▶</a>
+          </div>
+        </div>
+        <div>
+          <p class="footer-heading">Quick Links</p>
+          <nav class="footer-links">
+            <a href="about.html">About Us</a>
+            <a href="programs.html">Programs</a>
+            <a href="blog.html">Blog</a>
+            <a href="contact.html">Contact</a>
+          </nav>
+        </div>
+        <div>
+          <p class="footer-heading">Contact</p>
+          <div class="footer-contact-item">📧 <a href="mailto:info@oraoimpact.org">info@oraoimpact.org</a></div>
+          <div class="footer-contact-item">📞 <span>+000 000 0000</span></div>
+          <div class="footer-contact-item">📍 <span>Nigeria, Africa</span></div>
+        </div>
+        <div>
+          <p class="footer-heading">Stay Updated</p>
+          <form class="newsletter" onsubmit="return false">
+            <label for="newsletter-email4">Subscribe to our newsletter</label>
+            <div class="newsletter-row">
+              <input id="newsletter-email4" type="email" placeholder="Your email" required/>
+              <button type="submit">Subscribe</button>
+            </div>
+          </form>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2025 Orao Impact Foundation. All rights reserved.</p>
+        <div class="footer-bottom-links">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Use</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

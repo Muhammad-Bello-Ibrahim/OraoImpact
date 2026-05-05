@@ -1,0 +1,32 @@
+[
+  {
+    "id": "digital-skills-new-literacy",
+    "title": "Why Digital Skills Are the New Literacy for African Youth",
+    "date": "2025-04-20",
+    "author": "Orao Impact Team",
+    "tags": ["Digital Skills", "Youth", "Education"],
+    "excerpt": "Across Africa, millions of young people are graduating into a digital economy without the tools to participate fully. We explore why coding, AI literacy, and digital fluency are no longer optional — they are the new literacy.",
+    "cover": "assets/images/blog-digital.svg",
+    "file": "content/posts/digital-skills-new-literacy.md"
+  },
+  {
+    "id": "mesafe-community-safety",
+    "title": "How meSafe Is Reimagining Community Safety in Nigeria",
+    "date": "2025-03-10",
+    "author": "Orao Impact Team",
+    "tags": ["meSafe", "Community Safety", "Technology"],
+    "excerpt": "Community safety is a shared responsibility. The meSafe platform is giving everyday citizens tools to report, connect, and respond — building safer neighbourhoods from the ground up.",
+    "cover": "assets/images/blog-safety.svg",
+    "file": "content/posts/mesafe-community-safety.md"
+  },
+  {
+    "id": "shopmon-smes-go-digital",
+    "title": "Shopmon: Helping African SMEs Thrive in the Digital Economy",
+    "date": "2025-02-14",
+    "author": "Orao Impact Team",
+    "tags": ["SME", "Shopmon", "Digital Economy"],
+    "excerpt": "Small and medium enterprises are the backbone of African economies, yet most remain offline. The Shopmon initiative by Orao Impact Foundation is changing that — one business at a time.",
+    "cover": "assets/images/blog-sme.svg",
+    "file": "content/posts/shopmon-smes-go-digital.md"
+  }
+]

@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact Us — Orao Impact Foundation</title>
+  <meta name="description" content="Get in touch with Orao Impact Foundation. Volunteer, partner, donate, or ask us anything. Email: info@oraoimpact.org"/>
+  <meta property="og:title" content="Contact — Orao Impact Foundation"/>
+  <meta property="og:type" content="website"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="styles.css"/>
+  <script>
+    (function(){var t=localStorage.getItem('orao-theme')||((window.matchMedia&&window.matchMedia('(prefers-color-scheme:dark)').matches)?'dark':'light');document.documentElement.setAttribute('data-theme',t);})();
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <header class="site-header">
+    <nav class="nav container" aria-label="Primary">
+      <a href="index.html" class="brand" aria-label="Orao Impact Foundation home">
+        <span class="brand-mark">◉</span><span>Orao Impact</span>
+      </a>
+      <ul class="nav-links" id="nav-links" role="list">
+        <li><a href="about.html">About</a></li>
+        <li><a href="programs.html">Programs</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+        <li><a href="contact.html" class="btn-nav">Get Involved</a></li>
+      </ul>
+      <div class="nav-actions">
+        <button class="dark-toggle" data-dark-toggle aria-label="Toggle dark mode"></button>
+        <button class="menu-toggle" aria-expanded="false" aria-controls="nav-links">Menu</button>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main">
+    <!-- PAGE HERO -->
+    <section class="page-hero">
+      <div class="container">
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+          <a href="index.html">Home</a><span class="breadcrumb-sep">›</span><span>Contact</span>
+        </nav>
+        <div class="page-hero-content">
+          <span class="eyebrow">Get in Touch</span>
+          <h1>Let's Build Impact Together</h1>
+          <p class="lead">Whether you want to volunteer, partner, donate, or simply learn more — we'd love to hear from you. Every conversation is a step toward greater impact.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section class="section">
+      <div class="container">
+        <div class="contact-grid">
+
+          <!-- Contact Info -->
+          <div class="reveal">
+            <span class="eyebrow">Reach Us</span>
+            <h2>Contact Information</h2>
+            <p style="color:var(--text-muted); margin-bottom:2rem">We typically respond within 2–3 business days. For urgent matters, please include "URGENT" in your subject line.</p>
+
+            <div class="contact-info-item">
+              <div class="contact-icon">📧</div>
+              <div class="contact-info-text">
+                <strong>Email</strong>
+                <span><a href="mailto:info@oraoimpact.org">info@oraoimpact.org</a></span>
+              </div>
+            </div>
+            <div class="contact-info-item">
+              <div class="contact-icon">📞</div>
+              <div class="contact-info-text">
+                <strong>Phone</strong>
+                <span>+000 000 0000 (Placeholder)</span>
+              </div>
+            </div>
+            <div class="contact-info-item">
+              <div class="contact-icon">📍</div>
+              <div class="contact-info-text">
+                <strong>Location</strong>
+                <span>Nigeria, Africa (Headquarters placeholder)</span>
+              </div>
+            </div>
+            <div class="contact-info-item">
+              <div class="contact-icon">🕒</div>
+              <div class="contact-info-text">
+                <strong>Office Hours</strong>
+                <span>Monday – Friday, 9:00 AM – 5:00 PM WAT</span>
+              </div>
+            </div>
+
+            <!-- Social links -->
+            <div style="margin-top:2rem">
+              <p style="font-size:.85rem; font-weight:600; color:var(--text); margin-bottom:.75rem">Follow us on social media</p>
+              <div style="display:flex; gap:.75rem; flex-wrap:wrap">
+                <a href="#" class="btn btn-secondary btn-sm">𝕏 Twitter</a>
+                <a href="#" class="btn btn-secondary btn-sm">in LinkedIn</a>
+                <a href="#" class="btn btn-secondary btn-sm">Ig Instagram</a>
+                <a href="#" class="btn btn-secondary btn-sm">▶ YouTube</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Contact Form -->
+          <div class="reveal reveal-delay-2">
+            <div class="contact-form-card">
+              <h3 style="margin-bottom:1.5rem">Send Us a Message</h3>
+              <form id="contact-form" novalidate>
+                <div class="form-row">
+                  <div class="form-group">
+                    <label for="contact-name">Full Name <span aria-hidden="true" style="color:var(--danger)">*</span></label>
+                    <input id="contact-name" name="name" type="text" placeholder="Your full name" required autocomplete="name"/>
+                    <span class="field-error">Please enter your name.</span>
+                  </div>
+                  <div class="form-group">
+                    <label for="contact-email">Email Address <span aria-hidden="true" style="color:var(--danger)">*</span></label>
+                    <input id="contact-email" name="email" type="email" placeholder="you@example.com" required autocomplete="email"/>
+                    <span class="field-error">Please enter a valid email address.</span>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label for="contact-subject">Subject <span aria-hidden="true" style="color:var(--danger)">*</span></label>
+                  <select id="contact-subject" name="subject" required>
+                    <option value="" disabled selected>Select a subject…</option>
+                    <option value="Volunteer">I want to volunteer</option>
+                    <option value="Partnership Inquiry">Partnership inquiry</option>
+                    <option value="Donation">I'd like to donate</option>
+                    <option value="Program Application">Program application</option>
+                    <option value="Media Inquiry">Media inquiry</option>
+                    <option value="General Inquiry">General inquiry</option>
+                  </select>
+                  <span class="field-error">Please select a subject.</span>
+                </div>
+                <div class="form-group">
+                  <label for="contact-org">Organisation <span style="font-weight:400;color:var(--text-light)">(optional)</span></label>
+                  <input id="contact-org" name="organisation" type="text" placeholder="Your organisation or company" autocomplete="organization"/>
+                </div>
+                <div class="form-group">
+                  <label for="contact-message">Message <span aria-hidden="true" style="color:var(--danger)">*</span></label>
+                  <textarea id="contact-message" name="message" placeholder="Tell us how we can help, or share your thoughts…" required></textarea>
+                  <span class="field-error">Please enter your message.</span>
+                </div>
+                <button type="submit" class="btn btn-primary" style="width:100%; justify-content:center">Send Message →</button>
+                <div class="form-success" role="alert" aria-live="polite">
+                  <span>✓</span>
+                  <span>Message sent! We'll reply within 2–3 business days. Your email client may open to confirm sending.</span>
+                </div>
+                <p style="font-size:.75rem; color:var(--text-light); margin-top:1rem; text-align:center">
+                  This form uses a mailto fallback. Your message will be sent to <strong>info@oraoimpact.org</strong>.
+                </p>
+              </form>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- HOW TO GET INVOLVED -->
+    <section class="section muted">
+      <div class="container">
+        <div class="section-header centered reveal">
+          <span class="eyebrow">Ways to Engage</span>
+          <h2>How You Can Make a Difference</h2>
+        </div>
+        <div class="grid-3">
+          <article class="card reveal reveal-delay-1" style="text-align:center">
+            <div class="card-icon icon-digital" style="margin:0 auto 1rem">🙋‍♀️</div>
+            <h3>Volunteer</h3>
+            <p style="color:var(--text-muted)">Share your skills as a mentor, trainer, or programme facilitator. Make a direct impact in communities.</p>
+            <a href="#contact-form" class="btn btn-outline btn-sm" style="margin-top:1rem">Get Started</a>
+          </article>
+          <article class="card reveal reveal-delay-2" style="text-align:center">
+            <div class="card-icon icon-safety" style="margin:0 auto 1rem">🤝</div>
+            <h3>Partner With Us</h3>
+            <p style="color:var(--text-muted)">Collaborate as an institution, corporate partner, or ecosystem ally to scale our programmes and reach.</p>
+            <a href="#contact-form" class="btn btn-outline btn-sm" style="margin-top:1rem">Explore Partnership</a>
+          </article>
+          <article class="card reveal reveal-delay-3" style="text-align:center">
+            <div class="card-icon icon-sme" style="margin:0 auto 1rem">💝</div>
+            <h3>Donate</h3>
+            <p style="color:var(--text-muted)">Fuel programmes that expand access to education, safety, and economic opportunity across Africa.</p>
+            <a href="#contact-form" class="btn btn-outline btn-sm" style="margin-top:1rem">Support Our Work</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="section">
+      <div class="container" style="max-width:800px; margin:0 auto">
+        <div class="section-header centered reveal">
+          <span class="eyebrow">Common Questions</span>
+          <h2>Frequently Asked Questions</h2>
+        </div>
+        <div class="faq-list reveal">
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false">
+              How do I apply for one of your programmes?
+              <span class="faq-icon" aria-hidden="true">+</span>
+            </button>
+            <div class="faq-answer" role="region">
+              <div class="faq-answer-inner">
+                You can express interest by filling out the contact form above and selecting "Program application" as your subject. Alternatively, email us at <a href="mailto:info@oraoimpact.org">info@oraoimpact.org</a>. We will share programme-specific application details and intake dates as they become available.
+              </div>
+            </div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false">
+              How can my organisation partner with Orao Impact Foundation?
+              <span class="faq-icon" aria-hidden="true">+</span>
+            </button>
+            <div class="faq-answer" role="region">
+              <div class="faq-answer-inner">
+                We welcome partnerships with corporations, NGOs, government agencies, educational institutions, and technology companies. Contact us with a brief description of your organisation and how you envision a collaboration, and we will schedule an introductory call.
+              </div>
+            </div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false">
+              Where does Orao Impact Foundation operate?
+              <span class="faq-icon" aria-hidden="true">+</span>
+            </button>
+            <div class="faq-answer" role="region">
+              <div class="faq-answer-inner">
+                We are currently based in Nigeria, with an ambition to expand our programmes across West Africa and the broader continent. Each programme is designed to be adaptable to different community contexts.
+              </div>
+            </div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false">
+              Is Orao Impact Foundation a registered nonprofit?
+              <span class="faq-icon" aria-hidden="true">+</span>
+            </button>
+            <div class="faq-answer" role="region">
+              <div class="faq-answer-inner">
+                Details about our formal registration status will be made available as the organisation completes its registration process. For specific governance-related enquiries, please contact us directly at <a href="mailto:info@oraoimpact.org">info@oraoimpact.org</a>.
+              </div>
+            </div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false">
+              How can I volunteer remotely?
+              <span class="faq-icon" aria-hidden="true">+</span>
+            </button>
+            <div class="faq-answer" role="region">
+              <div class="faq-answer-inner">
+                We welcome remote volunteers in areas such as content creation, digital marketing, curriculum development, mentoring, and technology. Fill out the contact form indicating your skills and availability, and we will match you with the most suitable opportunity.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <div class="footer-brand"><span class="brand-mark">◉</span> Orao Impact Foundation</div>
+          <p class="footer-desc">Empowering communities through technology, inclusion, and innovation across Africa.</p>
+          <div class="footer-socials">
+            <a href="#" class="social-link" aria-label="Twitter/X">𝕏</a>
+            <a href="#" class="social-link" aria-label="LinkedIn">in</a>
+            <a href="#" class="social-link" aria-label="Instagram">Ig</a>
+            <a href="#" class="social-link" aria-label="YouTube">▶</a>
+          </div>
+        </div>
+        <div>
+          <p class="footer-heading">Quick Links</p>
+          <nav class="footer-links">
+            <a href="about.html">About Us</a>
+            <a href="programs.html">Programs</a>
+            <a href="blog.html">Blog</a>
+            <a href="contact.html">Contact</a>
+          </nav>
+        </div>
+        <div>
+          <p class="footer-heading">Contact</p>
+          <div class="footer-contact-item">📧 <a href="mailto:info@oraoimpact.org">info@oraoimpact.org</a></div>
+          <div class="footer-contact-item">📞 <span>+000 000 0000</span></div>
+          <div class="footer-contact-item">📍 <span>Nigeria, Africa</span></div>
+        </div>
+        <div>
+          <p class="footer-heading">Stay Updated</p>
+          <form class="newsletter" onsubmit="return false">
+            <label for="newsletter-email6">Subscribe to our newsletter</label>
+            <div class="newsletter-row">
+              <input id="newsletter-email6" type="email" placeholder="Your email" required/>
+              <button type="submit">Subscribe</button>
+            </div>
+          </form>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2025 Orao Impact Foundation. All rights reserved.</p>
+        <div class="footer-bottom-links">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Use</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
